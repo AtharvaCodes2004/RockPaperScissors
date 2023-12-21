@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(34, 34, 60);
+    color: aliceblue;
+    text-align: center;
+}
+/* .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+h1{
+    font-family: 'Lobster', cursive;
+    font-size: 100px;
+}
+.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+}
+p{
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
